@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptar</title> 
+
+</head>
+
+<body>
+<header>
+    <img class="logoalura"  src="/imagem/aluralogo.png" alt="Logo da Alura">
+</header>
+
+<main>
+    <section class="conteiner__esquerdo">
+
+        <div class="conteiner-esquerdo__text-area">
+        <textarea class="text-area" id="texto" cols="41" rows="4"  placeholder=" Digite seu texto!"></textarea>
+       </div>
+
+        <div class="conteiner-esquerdo__informacao">
+            
+            <div class="informacao__iconeExclamação">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+              </svg>
+            </div>
+            <h6 class="aparencia__textoInformacao">"Apenas letras minúsculas e sem acento."</h6>
+
+          </div>
+          
+
+        <div class="container__esquerdoBotoes">
+
+            <button id="btn-encriptar"  class="btn-encriptar" onclick="btnEncriptar()" >Criptografar</button>
+            <button id="btn-desencriptar" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+    </section>
+
+    <section class="conteiner__direito">
+        <div class="conteiner__direitoRetangulo">
+        <img src="/imagem/meninolupa.png" alt="Menino segurando uma lupa" class="imagem">
+        <textarea class="mensagem" id="mensagem" placeholder="Mensagem não encontrada!" title="mensagem"></textarea>
+        <button id="btn-copiar" class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        <button id="btn-limpar" class="btn-limpar" onclick="btnLimpar()">Limpar</button>
+        
+         </div>
+    </section>
+
+</main>
+<script src="challenge.js"></script>
+
+<footer class="rodape" >
+    <div class="rodape_inf"> 
+       <p>Developed by Stefania Oliveira  março/2024</p>
+       <p>ONE - Oracle Next Education </p>  
+    </div>
+
+    <div class="rodape__horario" id="horario">
+    </div>
+    </footer>
+
+</body>
+
+</html>

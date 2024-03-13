@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  font-weight: 20rem;
+  font-size: 2rem;
+  line-height: 0.5rem;
+}
+
+body {
+  display:flex;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start; /* Alterado para alinhar o logo à esquerda */
+  align-items: center;
+  height: 0.9rem;
+  padding-left: 1rem; /* Adicionado espaçamento à esquerda */
+  background-color: #e5e5e5;
+}
+
+.logoalura {
+  width: 2em;
+  height: auto;
+  margin-top: 0.8em;
+  margin-right: 1em;
+}
+.conteiner__esquerdo{
+  width: 60%;
+  float: left;
+  padding: 1.2em;
+  box-sizing: border-box;
+}
+.container__direito {
+  width: 40%;
+  float: right;
+  padding:1.2em;
+  box-sizing: border-box;
+}
+
+.container__esquerdo {
+  display: flex;
+  align-items: flex-end; /* Alinha os filhos na parte inferior */
+  flex-direction:row;
+  
+}
+
+.conteiner-esquerdo__text-area{
+  margin-top: 14%;
+  text-align: center; /* Alinha o texto à esquerda */
+}
+.text-area{
+  width: 10em;
+  height: 0.9em;
+  font-size: 0.7em;
+  line-height: 0.9em; /* Definir line-height igual à altura do botão */
+  margin-left:-50%; /* Mover um pouco mais para a esquerda */
+}
+
+.conteiner-esquerdo__informacao {
+  display: flex; /* Utilize flexbox para alinhar os elementos filhos */
+  position: relative;
+  align-items: center; /* Alinha os filhos na parte inferior */
+  height: 2.8em; /* Defina uma altura para o contêiner */
+  margin-top: 16%; /* Espaçamento superior */
+  margin-left: -20%; /* Mover um pouco mais para a esquerda */}
+  
+
+.informacao__iconeExclamacao {
+  width: auto;
+  height: auto;
+  margin-left: 5px; /* Mover os elementos um pouco para a direita */
+}
+
+.aparencia__textoInformacao {
+  opacity: 0.8;
+  font-size: 0.3em; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #495057;
+  margin-top:4%;
+  margin-left: 0.6em; /* Mover os elementos um pouco para a direita */
+  z-index : 1;
+  
+}
+
+
+
+.container__esquerdoBotoes {
+  display: flex;
+  position: relative;
+  align-self: flex-start; /* Alinha o filho à esquerda do pai */
+  margin-top:-9%;
+  margin-left: -20%; /* Mover um pouco mais para a esquerda */
+  z-index : 2;
+}
+
+.btn-encriptar {
+  width: 13.9em; /* Largura ajustada para ser proporcional */
+  height: 3.5em; /* Altura ajustada para ser proporcional */
+  margin-right: 1em; /* Espaçamento entre os botões */
+  border-radius: 0.6em; /* Ajuste do raio do border-radius */
+  color: white;
+  background-color: #0A3871;
+  cursor: pointer;
+  transition: 0.5s;
+  line-height: 3em; /* Definir line-height igual à altura do botão */
+  font-size: 0.29em; /* Ajustar o tamanho da fonte conforme necessário */
+}
+
+.btn-encriptar:hover {
+  transform: scale(0.9); /* Ajuste da escala no hover */
+}
+
+.btn-desencriptar {
+  width: 13.9em; /* Largura ajustada para ser proporcional */
+  height: 3.5em; /* Altura ajustada para ser proporcional */
+  border-radius: 0.6em; /* Ajuste do raio do border-radius */
+  border-color: #0A3871;
+  color: #0A3871;
+  background-color: #D8DFE8;
+  cursor: pointer;
+  transition: 0.5s;
+  line-height: 3em; /* Definir line-height igual à altura do botão */
+  font-size: 0.29em; /* Ajustar o tamanho da fonte conforme necessário */
+}
+
+.btn-desencriptar:hover {
+  transform: scale(0.9); /* Ajuste da escala no hover */
+}
+
+.conteiner__direito{
+  display: flex;
+  flex-direction: column; /* Empilha os elementos verticalmente */
+  justify-content: flex-start; /* Alinha o retângulo no topo */
+  align-items: flex-end; /* Alinha o retângulo à direita */
+  margin-top:0.9% ;
+ 
+}
+
+.conteiner__direitoRetangulo {
+    width: 5.6em; /* largura do retângulo em em */
+    height: 8.9em; /* altura do retângulo em em */
+    background-color: #FFFFFF; /* cor de fundo */
+    border: 0.1em solid #000000; /* borda sólida preta de 0.125 em */
+    border-radius: 8%;
+    z-index:4
+  }
+  
+.imagem{
+  width: 5.6em;
+  height: auto;
+  background-color: #FFFFFF;
+  border-radius:8%;
+  z-index: index 3;
+}
+
+.mensagem{
+  width: 22%;
+  height:auto;
+  text-align: center; /* Alinhar o texto no centro */
+  padding: 0.6em;
+  box-sizing: border-box; /* Incluir o preenchimento no cálculo da largura */
+  position:absolute;
+  left: 80%; /* Alinha o elemento no meio horizontalmente */
+  bottom: 34%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
+  transform: translateX(-50%); /* Move o elemento de volta para o centro */
+  transition: 0.5s;
+  line-height: 1.5; /* Define a altura da linha para o texto */
+  font-size: 0.28em; /* Ajustar o tamanho da fonte conforme necessário */
+  z-index: index 3;
+}
+  .btn-limpar{
+    width: 10em; /* Largura ajustada para ser proporcional */
+    height: 3em; /* Altura ajustada para ser proporcional */
+    border-radius: 0.6em; /* Ajuste do raio do border-radius */
+    border-color: #0A3871;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    position:absolute;
+    left: 81%; /* Alinha o elemento no meio horizontalmente */
+    bottom: 22%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
+    transform: translateX(-50%); /* Move o elemento de volta para o centro */
+    cursor: pointer;
+    line-height: 3em; /* Definir line-height igual à altura do botão */
+    font-size: 0.29em; /* Ajustar o tamanho da fonte conforme necessário */
+    z-index: index 3;
+  }
+  .btn-copiar{
+    width: 10em; /* Largura ajustada para ser proporcional */
+    height: 3em; /* Altura ajustada para ser proporcional */
+    border-radius: 0.6em; /* Ajuste do raio do border-radius */
+    border-color: #0A3871;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    position:absolute;
+    left: 81%; /* Alinha o elemento no meio horizontalmente */
+    bottom: 10%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
+    transform: translateX(-50%); /* Move o elemento de volta para o centro */
+    cursor: pointer;
+    line-height: 3em; /* Definir line-height igual à altura do botão */
+    font-size: 0.29em; /* Ajustar o tamanho da fonte conforme necessário */
+    z-index: index 3;
+  }
+
+  .rodape {
+    display: flex;
+    justify-content: center; /* Alinha os itens ao centro horizontalmente */
+    color: blue;
+    text-align: center;
+    padding: 0.1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  
+  .rodape_inf p {
+    font-size: 0.22em; /* Defina o tamanho de fonte desejado */
+    margin: 0.9em 0;
+    
+  }
+  
+  .rodape__horario{
+    display: flex;
+    justify-content: left; /* Alinha os itens ao centro horizontalmente */
+    color: blue;
+    text-align: center;
+    font-size: 0.2em; /* Defina o tamanho de fonte desejado */
+    padding: 0.1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+  }
+
+
+
+
+/* Responsividade */
+@media only screen and (max-width: 48rem) {
+  /* Estilos para telas pequenas */
+  body {
+      font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 48rem) and (max-width: 63.9rem) {
+  /* Estilos para telas médias */
+  body {
+      font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  /* Estilos para telas grandes */
+  body {
+      font-size: 2rem;
+  }
+}
+

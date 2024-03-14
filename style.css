@@ -268,44 +268,119 @@ main {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
     }
     .conteiner-esquerdo__text-area{
-      margin-top: 20%;
+      margin-top:-45%;
       
     }
 
     .text-area{
-      width: 16em;
-      height: 3em;
-      font-size: 0.3em;
-      line-height: 3em; /* Definir line-height igual à altura do botão */
-      margin-left:-60%; 
+      width: 14em;
+      height: 1.7em;
+      font-size: 0.2em;
+      line-height: 1.7em; /* Definir line-height igual à altura do botão */
+      margin-left:-80%; 
       text-align:center; /* Alinha o texto à esquerda */
     }
     .conteiner-esquerdo__informacao {
       display: flex; /* Utilize flexbox para alinhar os elementos filhos */
       position: relative;
       align-items: center; /* Alinha os filhos na parte inferior */
-      height: 2.8em; /* Defina uma altura para o contêiner */
-      margin-top: 50%; /* Espaçamento superior */
-      margin-left: -60%; /* Mover um pouco mais para a esquerda */
+      height: 1.8em; /* Defina uma altura para o contêiner */
+      margin-top: 0; /* Espaçamento superior */
+      margin-left: -88%; /* Mover um pouco mais para a esquerda */
+    }
+
+  
+    .aparencia__textoInformacao{
+      font-size: 0.14em;
+    }
+    .container__esquerdoBotoes {
+      margin-top:-37%;
+      margin-left: -78%; /* Mover um pouco mais para a esquerda */
+    }
+    .btn-encriptar {
+      width: 6em; /* Largura ajustada para ser proporcional */
+      height: 3em; /* Altura ajustada para ser proporcional */
+      margin-right: 0.3em; /* Espaçamento entre os botões */
+      border-radius: 0.5em; /* Ajuste do raio do border-radius */
+      line-height: 3em; /* Definir line-height igual à altura do botão */
+    }
+
+    .btn-desencriptar{
+      width: 6.4em; /* Largura ajustada para ser proporcional */
+      height: 3em; /* Altura ajustada para ser proporcional */
+      margin-right: 0.3em; /* Espaçamento entre os botões */
+      border-radius: 0.5em; /* Ajuste do raio do border-radius */
+      line-height: 3em; /* Definir line-height igual à altura do botão */
     }
 
     .conteiner__direito {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
+      margin-left:-2% ;
     }
+
+    .conteiner__direitoRetangulo {
+      width: 4.3em;
+      height:3.8em ;
+      margin-top:-26% ;
+      z-index:4;
+      
   }
+   .meninoLupa{
+    width: 100%;
+    height:60% ;
+    z-index:3;
+  }
+     .mensagem{
+      width: 74%;
+      height:10%;
+      margin-left:-24%;
+      font-size: 0.2em;
+      z-index:3;
+    }
 
+     .btn-limpar{
+      width: 34%;
+      height:8%;
+      margin-left: -24%;
+      margin-bottom: 5%;
+      z-index:3;
+    }
 
-@media only screen and (min-width: 48rem) and (max-width: 63.9rem) {
-  /* Estilos para telas médias */
-  body {
-    box-sizing: border-box;
+     .btn-copiar{
+      width: 34%;
+      height:8%;
+      margin-left: -24%;
+      margin-bottom: 10%;
+      z-index:3;
+    }
   }
 }
 
-@media only screen and (min-width: 64rem) {
+/* Estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body{
+   
+  main {
+    width: 70%; /* Reduz a largura do elemento main para tablets */
+  }
+
+  .conteiner__esquerdo {
+    width: 40%; /* Reduz a largura do conteiner esquerdo para tablets */
+
+  }
+
+  .conteiner__direito {
+    width: 60%; /* Reduz a largura do conteiner direito para tablets */
+  }
+}
+}
+
+
+@media only screen and (min-width: 1024px){
   /* Estilos para telas grandes */
   body {
-    box-sizing: border-box;
-  }
+    main {
+      width: 70%; 
+    }
 }
 }

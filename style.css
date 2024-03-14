@@ -267,7 +267,7 @@ main {
     .conteiner__esquerdo {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
     }
-    
+
     .conteiner-esquerdo__text-area{
       margin-top:-45%;
       
@@ -324,7 +324,7 @@ main {
     .conteiner__direitoRetangulo {
       width: 3.9em;
       height:6em ;
-      margin-top:-65% ;
+      margin-bottom:20% ;
       margin-left: 20%;
       margin-right: 20%;
       z-index:4;

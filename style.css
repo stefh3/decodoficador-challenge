@@ -338,7 +338,7 @@ main {
      .mensagem{
       width: 56%;
       height:8%;
-      margin-left:-16%;
+      margin-left:-32%;
       margin-bottom:14% ;
       font-size: 0.2em;
       z-index:3;
@@ -347,7 +347,7 @@ main {
      .btn-limpar{
       width: 30%;
       height:8%;
-      margin-left: -10%;
+      margin-left: -48%;
       margin-bottom: 5%;
       z-index:3;
     }
@@ -355,7 +355,7 @@ main {
      .btn-copiar{
       width: 30%;
       height:8%;
-      margin-left: -10%;
+      margin-left: -48%;
       margin-bottom: 10%;
       z-index:3;
     }

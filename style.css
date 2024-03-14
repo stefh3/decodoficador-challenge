@@ -267,6 +267,7 @@ main {
     .conteiner__esquerdo {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
     }
+    
     .conteiner-esquerdo__text-area{
       margin-top:-45%;
       
@@ -280,6 +281,7 @@ main {
       margin-left:-80%; 
       text-align:center; /* Alinha o texto à esquerda */
     }
+
     .conteiner-esquerdo__informacao {
       display: flex; /* Utilize flexbox para alinhar os elementos filhos */
       position: relative;
@@ -289,14 +291,15 @@ main {
       margin-left: -88%; /* Mover um pouco mais para a esquerda */
     }
 
-  
     .aparencia__textoInformacao{
       font-size: 0.09em;
     }
+
     .container__esquerdoBotoes {
       margin-top:-10%;
       margin-left: -92%; /* Mover um pouco mais para a esquerda */
     }
+
     .btn-encriptar {
       width: 6em; /* Largura ajustada para ser proporcional */
       height: 3em; /* Altura ajustada para ser proporcional */
@@ -322,7 +325,8 @@ main {
       width: 3.9em;
       height:6em ;
       margin-top:-65% ;
-      margin-right: 40%;
+      margin-left: 20%;
+      margin-right: 20%;
       z-index:4;
       
   }

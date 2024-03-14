@@ -294,7 +294,7 @@ main {
       font-size: 0.09em;
     }
     .container__esquerdoBotoes {
-      margin-top:-12%;
+      margin-top:auto;
       margin-left: -92%; /* Mover um pouco mais para a esquerda */
     }
     .btn-encriptar {
@@ -321,7 +321,7 @@ main {
     .conteiner__direitoRetangulo {
       width: 4em;
       height:14em ;
-      margin-top:-8% ;
+      margin-bottom: 6%;
       z-index:4;
       
   }

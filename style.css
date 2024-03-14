@@ -278,6 +278,7 @@ main {
       height: 1.8em;
       font-size: 0.2em;
       line-height: 1.8em; /* Definir line-height igual à altura do botão */
+      margin-top:10% ;
       margin-left:-70%; 
       text-align:center; /* Alinha o texto à esquerda */
     }
@@ -322,10 +323,10 @@ main {
     }
 
     .conteiner__direitoRetangulo {
-      width: 3.9em;
+      width: 3.8em;
       height:6em ;
-      margin-bottom:20% ;
       margin-left: 30%;
+      margin-bottom:20%;
       margin-right: 20%;
       z-index:4;
       
@@ -338,15 +339,15 @@ main {
      .mensagem{
       width: 56%;
       height:8%;
-      left:42%;
-      margin-bottom:25% ;
+      left:48%;
+      margin-bottom:13% ;
       font-size: 0.2em;
       z-index:2;
     }
      .btn-limpar{
       width: 30%;
       height:8%;
-      margin-left: auto;
+      margin-left:14%;
       margin-bottom: 5%;
       z-index:1;
     }
@@ -354,7 +355,7 @@ main {
      .btn-copiar{
       width: 30%;
       height:8%;
-      margin-left: auto;
+      margin-left:14%;
       margin-bottom: 10%;
       z-index:1;
     }

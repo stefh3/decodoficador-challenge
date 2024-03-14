@@ -274,11 +274,11 @@ main {
     }
 
     .text-area{
-      width: 14em;
-      height: 1.7em;
+      width: 18em;
+      height: 1.8em;
       font-size: 0.2em;
-      line-height: 1.7em; /* Definir line-height igual à altura do botão */
-      margin-left:-80%; 
+      line-height: 1.8em; /* Definir line-height igual à altura do botão */
+      margin-left:-70%; 
       text-align:center; /* Alinha o texto à esquerda */
     }
 
@@ -287,12 +287,12 @@ main {
       position: relative;
       align-items: center; /* Alinha os filhos na parte inferior */
       height: 1.8em; /* Defina uma altura para o contêiner */
-      margin-top: 0; /* Espaçamento superior */
-      margin-left: -88%; /* Mover um pouco mais para a esquerda */
+      margin-top: 2%; /* Espaçamento superior */
+      margin-left: -78%; /* Mover um pouco mais para a esquerda */
     }
 
     .aparencia__textoInformacao{
-      font-size: 0.1em;
+      font-size: 0.09em;
     }
 
     .container__esquerdoBotoes {
@@ -338,16 +338,15 @@ main {
      .mensagem{
       width: 56%;
       height:8%;
-      left:38%;
+      left:42%;
       margin-bottom:25% ;
       font-size: 0.2em;
       z-index:2;
     }
-
      .btn-limpar{
       width: 30%;
       height:8%;
-      margin-left: 25%;
+      margin-left: auto;
       margin-bottom: 5%;
       z-index:1;
     }
@@ -355,7 +354,7 @@ main {
      .btn-copiar{
       width: 30%;
       height:8%;
-      margin-left: 25%;
+      margin-left: auto;
       margin-bottom: 10%;
       z-index:1;
     }

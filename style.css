@@ -318,7 +318,7 @@ main {
 
     .conteiner__direito {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
-      margin-top: 5%;
+      margin-top: -15%;
     }
 
     .conteiner__direitoRetangulo {
@@ -348,9 +348,8 @@ main {
      .btn-limpar{
       width: 30%;
       height:8%;
-      margin-left: 50%;
+      margin-left: 75%;
       margin-bottom: 5%;
-      margin-right: 50%;
       z-index:3;
     }
 

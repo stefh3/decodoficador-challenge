@@ -278,7 +278,7 @@ main {
       height: 1.8em;
       font-size: 0.2em;
       line-height: 1.8em; /* Definir line-height igual à altura do botão */
-      margin-top:10% ;
+      margin-top:25% ;
       margin-left:-70%; 
       text-align:center; /* Alinha o texto à esquerda */
     }
@@ -339,15 +339,15 @@ main {
      .mensagem{
       width: 56%;
       height:8%;
-      left:48%;
-      margin-bottom:13% ;
+      left:51%;
+      margin-bottom:10% ;
       font-size: 0.2em;
       z-index:2;
     }
      .btn-limpar{
       width: 30%;
       height:8%;
-      margin-left:14%;
+      margin-left:-28%;
       margin-bottom: 5%;
       z-index:1;
     }
@@ -355,8 +355,8 @@ main {
      .btn-copiar{
       width: 30%;
       height:8%;
-      margin-left:14%;
-      margin-bottom: 10%;
+      margin-left:-28%;
+      margin-bottom: 8%;
       z-index:1;
     }
   }

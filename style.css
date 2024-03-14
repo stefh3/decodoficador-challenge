@@ -22,6 +22,10 @@ header {
   padding-left: 1rem; /* Adicionado espaçamento à esquerda */
   background-color: #e5e5e5;
 }
+/* Estilos padrão para o elemento main */
+main {
+  width: 80%; /* Define a largura padrão */
+}
 
 .logoAlura {
   width: 2em;
@@ -29,6 +33,7 @@ header {
   margin-top: 0.8em;
   margin-right: 1em;
 }
+
 .conteiner__esquerdo{
   width: 60%;
   float: left;
@@ -240,24 +245,67 @@ header {
 
 
 /* Responsividade */
-@media only screen and (max-width: 48rem) {
-  /* Estilos para telas pequenas */
+
+@media only screen and (min-width: 64rem) {
+  /* Estilos para telas grandes */
   body {
-      font-size: 1.5rem;
+    box-sizing: border-box;
   }
 }
+
+@media only screen and (max-width:480px) {
+
+  body{
+
+   .logoAlura {
+  width: 100%;
+  height: auto;
+  margin-top: 40%;
+  margin-right: 100%;
+    }
+
+    .conteiner__esquerdo {
+      width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
+    }
+    .conteiner-esquerdo__text-area{
+      margin-top: 20%;
+      
+    }
+
+    .text-area{
+      width: 16em;
+      height: 3em;
+      font-size: 0.3em;
+      line-height: 3em; /* Definir line-height igual à altura do botão */
+      margin-left:-60%; 
+      text-align:center; /* Alinha o texto à esquerda */
+    }
+    .conteiner-esquerdo__informacao {
+      display: flex; /* Utilize flexbox para alinhar os elementos filhos */
+      position: relative;
+      align-items: center; /* Alinha os filhos na parte inferior */
+      height: 2.8em; /* Defina uma altura para o contêiner */
+      margin-top: 50%; /* Espaçamento superior */
+      margin-left: -60%; /* Mover um pouco mais para a esquerda */
+    }
+
+    .conteiner__direito {
+      width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
+    }
+  }
+
 
 @media only screen and (min-width: 48rem) and (max-width: 63.9rem) {
   /* Estilos para telas médias */
   body {
-      font-size: 1.8rem;
+    box-sizing: border-box;
   }
 }
 
 @media only screen and (min-width: 64rem) {
   /* Estilos para telas grandes */
   body {
-      font-size: 2rem;
+    box-sizing: border-box;
   }
 }
-
+}

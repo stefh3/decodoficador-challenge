@@ -315,13 +315,13 @@ main {
 
     .conteiner__direito {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
-      margin-left:5% ;
+      margin-left:-45% ;
     }
 
     .conteiner__direitoRetangulo {
       width: 4em;
-      height:14em ;
-      margin-bottom: 6%;
+      height:9em ;
+      margin-bottom: 8%;
       z-index:4;
       
   }

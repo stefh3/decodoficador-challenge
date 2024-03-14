@@ -292,7 +292,7 @@ main {
     }
 
     .aparencia__textoInformacao{
-      font-size: 0.09em;
+      font-size: 0.2em;
     }
 
     .container__esquerdoBotoes {
@@ -318,7 +318,7 @@ main {
 
     .conteiner__direito {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
-    
+      margin-top: 20%;
     }
 
     .conteiner__direitoRetangulo {
@@ -338,8 +338,9 @@ main {
      .mensagem{
       width: 56%;
       height:8%;
-      margin-left:-32%;
+      margin-left:40%;
       margin-bottom:14% ;
+      margin-right: 40%;
       font-size: 0.2em;
       z-index:3;
     }
@@ -347,16 +348,18 @@ main {
      .btn-limpar{
       width: 30%;
       height:8%;
-      margin-left: -48%;
+      margin-left: 40%;
       margin-bottom: 5%;
+      margin-right: 40%;
       z-index:3;
     }
 
      .btn-copiar{
       width: 30%;
       height:8%;
-      margin-left: -48%;
+      margin-left: 40%;
       margin-bottom: 10%;
+      margin-right: 40%;
       z-index:3;
     }
   }

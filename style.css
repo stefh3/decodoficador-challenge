@@ -292,7 +292,7 @@ main {
     }
 
     .aparencia__textoInformacao{
-      font-size: 0.5em;
+      font-size: 0.25em;
     }
 
     .container__esquerdoBotoes {
@@ -324,7 +324,7 @@ main {
     .conteiner__direitoRetangulo {
       width: 3.9em;
       height:6em ;
-      margin-bottom:26% ;
+      margin-bottom:24% ;
       margin-left: 30%;
       margin-right: 20%;
       z-index:4;
@@ -338,9 +338,9 @@ main {
      .mensagem{
       width: 56%;
       height:8%;
-      margin-left:60%;
+      left:60%;
+      right: 40%;
       margin-bottom:14% ;
-      margin-right: 40%;
       font-size: 0.2em;
       z-index:3;
     }

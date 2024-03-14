@@ -320,21 +320,21 @@ main {
 
     .conteiner__direitoRetangulo {
       width: 4em;
-      height:9em ;
-      margin-bottom: 8%;
+      height:8em ;
+      margin-bottom: 6%;
       z-index:4;
       
   }
    .meninoLupa{
     width: 100%;
-    height:60% ;
+    height:55% ;
     z-index:3;
   }
      .mensagem{
       width: 68%;
       height:8%;
       margin-left:-24%;
-      margin-bottom:24% ;
+      margin-bottom:14% ;
       font-size: 0.2em;
       z-index:3;
     }

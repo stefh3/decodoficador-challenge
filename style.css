@@ -319,10 +319,11 @@ main {
     }
 
     .conteiner__direitoRetangulo {
-      width: 4em;
+      width: 3.9em;
       height:6em ;
-      margin-left: -24%;
-      margin-bottom: 26%;
+      margin-top:-6% ;
+      margin-left: 0;
+      margin-bottom: 22%;
       z-index:4;
       
   }

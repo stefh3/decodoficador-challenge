@@ -294,7 +294,7 @@ main {
       font-size: 0.09em;
     }
     .container__esquerdoBotoes {
-      margin-top:-37%;
+      margin-top:-30%;
       margin-left: -98%; /* Mover um pouco mais para a esquerda */
     }
     .btn-encriptar {
@@ -315,13 +315,13 @@ main {
 
     .conteiner__direito {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
-      margin-left:8.5% ;
+      margin-left:5% ;
     }
 
     .conteiner__direitoRetangulo {
       width: 4em;
-      height:6.5em ;
-      margin-top:-36% ;
+      height:14em ;
+      margin-top:-26% ;
       z-index:4;
       
   }
@@ -331,11 +331,12 @@ main {
     z-index:3;
   }
      .mensagem{
-      width: 74%;
-      height:10%;
+      width: 68%;
+      height:8%;
       margin-left:-24%;
+      margin-bottom:24% ;
       font-size: 0.2em;
-      z-index:2;
+      z-index:3;
     }
 
      .btn-limpar{
@@ -343,7 +344,7 @@ main {
       height:8%;
       margin-left: -24%;
       margin-bottom: 5%;
-      z-index:2;
+      z-index:3;
     }
 
      .btn-copiar{
@@ -351,7 +352,7 @@ main {
       height:8%;
       margin-left: -24%;
       margin-bottom: 10%;
-      z-index:2;
+      z-index:3;
     }
   }
 }

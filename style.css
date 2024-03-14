@@ -318,14 +318,15 @@ main {
 
     .conteiner__direito {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
-      
+    
     }
 
     .conteiner__direitoRetangulo {
       width: 3.9em;
       height:6em ;
+      
       margin-bottom:20% ;
-      margin-left: 20%;
+      margin-left: 30%;
       margin-right: 20%;
       z-index:4;
       
@@ -336,26 +337,26 @@ main {
     z-index:3;
   }
      .mensagem{
-      width: 68%;
+      width: 58%;
       height:8%;
-      margin-left:-24%;
+      margin-left:-20%;
       margin-bottom:14% ;
       font-size: 0.2em;
       z-index:3;
     }
 
      .btn-limpar{
-      width: 34%;
+      width: 30%;
       height:8%;
-      margin-left: -24%;
+      margin-left: -20%;
       margin-bottom: 5%;
       z-index:3;
     }
 
      .btn-copiar{
-      width: 34%;
+      width: 30%;
       height:8%;
-      margin-left: -24%;
+      margin-left: -20%;
       margin-bottom: 10%;
       z-index:3;
     }

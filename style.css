@@ -366,7 +366,7 @@ main {
     }
     .rodape_inf p {
       font-size: 1em; /* Defina o tamanho de fonte desejado*/
-      line-height: 2em;
+      margin: 2em 0;
     }
   }
 }

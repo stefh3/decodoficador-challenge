@@ -363,10 +363,10 @@ main {
       margin-bottom:-13%;
       line-height:2%;
       z-index:1;
-    }
+    } 
     .rodape_inf p {
       font-size: 0.16em; /* Defina o tamanho de fonte desejado*/
-      margin: 2% 0;
+      margin: 3% 0;
     }
   }
 }

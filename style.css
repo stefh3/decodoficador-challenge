@@ -276,7 +276,7 @@ main {
     .text-area{
       width: 18em;
       height: 1.8em;
-      font-size: 0.2em;
+      font-size: 0.24em;
       line-height: 1.8em; /* Definir line-height igual à altura do botão */
       margin-top:35% ;
       margin-left:-66%; 
@@ -302,7 +302,7 @@ main {
     }
 
     .btn-encriptar {
-      width: 7em; /* Largura ajustada para ser proporcional */
+      width: 8.5em; /* Largura ajustada para ser proporcional */
       height: 3em; /* Altura ajustada para ser proporcional */
       margin-right: 0.3em; /* Espaçamento entre os botões */
       border-radius: 0.5em; /* Ajuste do raio do border-radius */
@@ -310,7 +310,7 @@ main {
     }
 
     .btn-desencriptar{
-      width: 7em; /* Largura ajustada para ser proporcional */
+      width: 8.5em; /* Largura ajustada para ser proporcional */
       height: 3em; /* Altura ajustada para ser proporcional */
       margin-right: 0.3em; /* Espaçamento entre os botões */
       border-radius: 0.5em; /* Ajuste do raio do border-radius */
@@ -349,7 +349,7 @@ main {
       width: 26%;
       height:6%;
       margin-left:-21%;
-      margin-bottom:-15.5%;
+      margin-bottom:-19.5%;
       line-height:6%;
       z-index:1;
     }
@@ -364,8 +364,8 @@ main {
       z-index:1;
     }
     .rodape_inf p {
-      font-size: 0.08em; /* Defina o tamanho de fonte desejado */
-      line-height: 1;
+      font-size: 0.08em; /* Defina o tamanho de fonte desejado*/
+      line-height: 0.07em;
     }
   }
 }

@@ -341,7 +341,7 @@ main {
       width: 54%;
       height:6%;
       left:51%;
-      margin-bottom:-16% ;
+      margin-bottom:-12% ;
       font-size: 0.2em;
       z-index:2;
     }
@@ -349,7 +349,7 @@ main {
       width: 30%;
       height:8%;
       margin-left:-30%;
-      margin-bottom:4%;
+      margin-bottom:3%;
       z-index:1;
     }
 
@@ -357,7 +357,7 @@ main {
       width: 30%;
       height:8%;
       margin-left:-30%;
-      margin-bottom: 2%;
+      margin-bottom:2%;
       z-index:1;
     }
   }

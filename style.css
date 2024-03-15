@@ -341,15 +341,15 @@ main {
       width: 54%;
       height:6%;
       left:51%;
-      margin-bottom:-53% ;
+      margin-bottom:-38% ;
       font-size: 0.2em;
       z-index:2;
     }
      .btn-limpar{
       width: 26%;
       height:6%;
-      margin-left:-31%;
-      margin-bottom:3%;
+      margin-left:-21%;
+      margin-bottom:-15%;
       line-height:6%;
       z-index:1;
     }

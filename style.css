@@ -341,7 +341,7 @@ main {
       width: 54%;
       height:6%;
       left:51%;
-      margin-bottom:-38% ;
+      margin-bottom:-29% ;
       font-size: 0.2em;
       z-index:2;
     }
@@ -349,7 +349,7 @@ main {
       width: 26%;
       height:6%;
       margin-left:-21%;
-      margin-bottom:-15%;
+      margin-bottom:-15.5%;
       line-height:6%;
       z-index:1;
     }
@@ -357,15 +357,15 @@ main {
      .btn-copiar{
       width: 26%;
       height:6%;
+      margin-top: 0.5%;
       margin-left:-21%;
       margin-bottom:-13%;
       line-height:2%;
       z-index:1;
     }
     .rodape_inf p {
-      font-size: 0.07em; /* Defina o tamanho de fonte desejado */
-      margin: 0.8em 0;
-      
+      font-size: 0.08em; /* Defina o tamanho de fonte desejado */
+      line-height: 1;
     }
   }
 }

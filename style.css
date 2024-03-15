@@ -302,7 +302,7 @@ main {
     }
 
     .btn-encriptar {
-      width: 6em; /* Largura ajustada para ser proporcional */
+      width: 7em; /* Largura ajustada para ser proporcional */
       height: 3em; /* Altura ajustada para ser proporcional */
       margin-right: 0.3em; /* Espaçamento entre os botões */
       border-radius: 0.5em; /* Ajuste do raio do border-radius */
@@ -310,7 +310,7 @@ main {
     }
 
     .btn-desencriptar{
-      width: 6.4em; /* Largura ajustada para ser proporcional */
+      width: 7em; /* Largura ajustada para ser proporcional */
       height: 3em; /* Altura ajustada para ser proporcional */
       margin-right: 0.3em; /* Espaçamento entre os botões */
       border-radius: 0.5em; /* Ajuste do raio do border-radius */
@@ -325,7 +325,7 @@ main {
     .conteiner__direitoRetangulo {
       width: 3.8em;
       height:6em ;
-      margin-top:-15%;
+      margin-top:-10%;
       margin-left: 30%;
       margin-bottom:25%;
       margin-right: 20%;
@@ -341,23 +341,25 @@ main {
       width: 54%;
       height:5%;
       left:51%;
-      margin-bottom:-8% ;
+      margin-bottom:-7% ;
       font-size: 0.2em;
       z-index:2;
     }
      .btn-limpar{
       width: 26%;
-      height:5%;
-      margin-left:-75%;
+      height:6%;
+      margin-left:-20%;
       margin-bottom:-2%;
+      line-height:6%;
       z-index:1;
     }
 
      .btn-copiar{
       width: 26%;
-      height:5%;
-      margin-left:-75%;
+      height:6%;
+      margin-left:-20%;
       margin-bottom:1%;
+      line-height:6%;
       z-index:1;
     }
   }

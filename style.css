@@ -365,8 +365,8 @@ main {
       z-index:1;
     }
     .rodape_inf p {
-      font-size: 0.9em; /* Defina o tamanho de fonte desejado*/
-      line-height: 1em;
+      font-size: 1em; /* Defina o tamanho de fonte desejado*/
+      line-height: 2em;
     }
   }
 }

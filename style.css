@@ -151,6 +151,7 @@ main {
     background-color: #FFFFFF; /* cor de fundo */
     border: 0.1em solid #000000; /* borda sólida preta de 0.125 em */
     border-radius: 8%;
+    margin-right: 30%;
     z-index:4
   }
   
@@ -369,6 +370,50 @@ main {
       margin: 3% 0;
     }
   }
+
+   /* Estilos para orientação paisagem */
+   @media (orientation: landscape) {
+    body{
+
+    header{
+    width:16% ;
+    height:10% ;}
+
+
+    
+    .logoAlura {
+      width: 20%;
+      height: auto;
+      margin-top: 35%;
+      margin-right: 88%;
+        }
+   
+   
+
+      .conteiner__direito{
+        width:60% ;
+      
+      }
+      .text-area{
+        width:16% ;
+        height:6% ;
+        left:0% ;
+      }
+
+      .conteiner__direito {
+        width: 40%; /* Defina a largura para ocupar toda a largura da página impressa */
+        
+      }
+    
+      .conteiner__direitoRetangulo {
+        width: 40%; /* Defina a largura para ocupar toda a largura da página impressa */
+      }
+  }
+
+  /* Estilos para orientação retrato */
+  @media (orientation: portrait) {
+    /* Estilos específicos para orientação retrato */
+  }
 }
 
 /* Estilos para tablets */
@@ -397,5 +442,6 @@ main {
     main {
       width: 70%; 
     }
+}
 }
 }

@@ -382,10 +382,10 @@ main {
 
     
     .logoAlura {
-      width: 20%;
+      width: 6%;
       height: auto;
-      margin-top: 35%;
-      margin-right: 88%;
+      margin-top: 10%;
+      left: -43%;
         }
    
    
@@ -397,7 +397,13 @@ main {
       .text-area{
         width:16% ;
         height:6% ;
-        left:0% ;
+        left:-50% ;
+        margin-top:12% ;
+      }
+      
+      .conteiner-esquerdo__informacao{
+        margin-top:20% ;
+        margin-left: -33%;
       }
 
       .conteiner__direito {

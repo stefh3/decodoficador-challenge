@@ -371,56 +371,6 @@ main {
     }
   }
 
-   /* Estilos para orientação paisagem */
-   @media (orientation: landscape) {
-    body{
-
-    header{
-    width:16% ;
-    height:10% ;}
-
-
-    
-    .logoAlura {
-      width: 6%;
-      height: auto;
-      margin-top: 10%;
-      left: -43%;
-        }
-   
-   
-
-      .conteiner__direito{
-        width:60% ;
-      
-      }
-      .text-area{
-        width:16% ;
-        height:6% ;
-        left:-50% ;
-        margin-top:12% ;
-      }
-      
-      .conteiner-esquerdo__informacao{
-        margin-top:20% ;
-        margin-left: -33%;
-      }
-
-      .conteiner__direito {
-        width: 40%; /* Defina a largura para ocupar toda a largura da página impressa */
-        
-      }
-    
-      .conteiner__direitoRetangulo {
-        width: 40%; /* Defina a largura para ocupar toda a largura da página impressa */
-      }
-  }
-
-  /* Estilos para orientação retrato */
-  @media (orientation: portrait) {
-    /* Estilos específicos para orientação retrato */
-  }
-}
 
 /* Estilos para tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

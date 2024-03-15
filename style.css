@@ -325,7 +325,7 @@ main {
     .conteiner__direitoRetangulo {
       width: 3.8em;
       height:6em ;
-      margin-top:-10%;
+      margin-top:-5%;
       margin-left: 30%;
       margin-bottom:25%;
       margin-right: 20%;
@@ -341,7 +341,7 @@ main {
       width: 54%;
       height:6%;
       left:51%;
-      margin-bottom:-9% ;
+      margin-bottom:-13% ;
       font-size: 0.2em;
       z-index:2;
     }
@@ -349,7 +349,7 @@ main {
       width: 26%;
       height:6%;
       margin-left:-21%;
-      margin-bottom:-5%;
+      margin-bottom:-10%;
       line-height:6%;
       z-index:1;
     }
@@ -358,13 +358,13 @@ main {
       width: 26%;
       height:6%;
       margin-left:-21%;
-      margin-bottom:2%;
+      margin-bottom:-9%;
       line-height:6%;
       z-index:1;
     }
     .rodape_inf p {
       font-size: 0.1em; /* Defina o tamanho de fonte desejado */
-      margin: 0.6em 0;
+      margin: 0.4em 0;
       
     }
   }

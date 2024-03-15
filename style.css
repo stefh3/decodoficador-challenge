@@ -319,12 +319,13 @@ main {
 
     .conteiner__direito {
       width: 100%; /* Altera a largura do contêiner para ocupar toda a largura da tela */
-      margin-top:-15%;
+      
     }
 
     .conteiner__direitoRetangulo {
       width: 3.8em;
       height:6em ;
+      margin-top:-15%;
       margin-left: 30%;
       margin-bottom:25%;
       margin-right: 20%;
@@ -340,7 +341,7 @@ main {
       width: 54%;
       height:6%;
       left:51%;
-      margin-bottom:-18% ;
+      margin-bottom:-16% ;
       font-size: 0.2em;
       z-index:2;
     }
@@ -348,7 +349,7 @@ main {
       width: 30%;
       height:8%;
       margin-left:-30%;
-      margin-bottom:6%;
+      margin-bottom:4%;
       z-index:1;
     }
 
@@ -356,7 +357,7 @@ main {
       width: 30%;
       height:8%;
       margin-left:-30%;
-      margin-bottom: 4%;
+      margin-bottom: 2%;
       z-index:1;
     }
   }

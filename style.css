@@ -60,8 +60,8 @@ main {
 }
 .text-area{
   width: 10em;
-  height: 0.9em;
-  font-size: 0.7em;
+  height: 1.4em;
+  font-size: 0.8em;
   line-height: 0.9em; /* Definir line-height igual à altura do botão */
   margin-left:-50%; /* Mover um pouco mais para a esquerda */
 }
@@ -147,7 +147,7 @@ main {
 
 .conteiner__direitoRetangulo {
     width: 5.6em; /* largura do retângulo em em */
-    height: 8.9em; /* altura do retângulo em em */
+    height: 8em; /* altura do retângulo em em */
     background-color: #FFFFFF; /* cor de fundo */
     border: 0.1em solid #000000; /* borda sólida preta de 0.125 em */
     border-radius: 8%;
@@ -164,16 +164,16 @@ main {
 
 .mensagem{
   width: 22%;
-  height:auto;
+  height:8%;
   text-align: center; /* Alinhar o texto no centro */
   padding: 0.6em;
   box-sizing: border-box; /* Incluir o preenchimento no cálculo da largura */
   position:absolute;
   left: 73%; /* Alinha o elemento no meio horizontalmente */
-  bottom: 34%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
+  bottom: 39%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
   transform: translateX(-50%); /* Move o elemento de volta para o centro */
   transition: 0.5s;
-  line-height: 1.5; /* Define a altura da linha para o texto */
+  line-height: 8%; /* Define a altura da linha para o texto */
   font-size: 0.28em; /* Ajustar o tamanho da fonte conforme necessário */
   z-index: index 3;
 }
@@ -186,7 +186,7 @@ main {
     background-color: #D8DFE8;
     position:absolute;
     left: 73%; /* Alinha o elemento no meio horizontalmente */
-    bottom: 22%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
+    bottom: 27%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
     transform: translateX(-50%); /* Move o elemento de volta para o centro */
     cursor: pointer;
     line-height: 3em; /* Definir line-height igual à altura do botão */
@@ -202,7 +202,7 @@ main {
     background-color: #D8DFE8;
     position:absolute;
     left: 73%; /* Alinha o elemento no meio horizontalmente */
-    bottom: 10%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
+    bottom: 16%; /* Ajusta a distância do elemento em relação ao fundo do retângulo */
     transform: translateX(-50%); /* Move o elemento de volta para o centro */
     cursor: pointer;
     line-height: 3em; /* Definir line-height igual à altura do botão */
@@ -223,7 +223,7 @@ main {
   }
   
   .rodape_inf p {
-    font-size: 0.22em; /* Defina o tamanho de fonte desejado */
+    font-size: 0.21em; /* Defina o tamanho de fonte desejado */
     margin: 0.9em 0;
     
   }
@@ -233,7 +233,7 @@ main {
     justify-content: left; /* Alinha os itens ao centro horizontalmente */
     color: blue;
     text-align: center;
-    font-size: 0.2em; /* Defina o tamanho de fonte desejado */
+    font-size: 0.19em; /* Defina o tamanho de fonte desejado */
     padding: 0.1em 0;
     position: fixed;
     bottom: 0;
@@ -339,7 +339,7 @@ main {
   }
      .mensagem{
       width: 54%;
-      height:5%;
+      height:6%;
       left:51%;
       margin-bottom:-7% ;
       font-size: 0.2em;
@@ -348,8 +348,8 @@ main {
      .btn-limpar{
       width: 26%;
       height:6%;
-      margin-left:-20%;
-      margin-bottom:-2%;
+      margin-left:-21%;
+      margin-bottom:-3%;
       line-height:6%;
       z-index:1;
     }
@@ -357,8 +357,8 @@ main {
      .btn-copiar{
       width: 26%;
       height:6%;
-      margin-left:-20%;
-      margin-bottom:1%;
+      margin-left:-21%;
+      margin-bottom:2%;
       line-height:6%;
       z-index:1;
     }

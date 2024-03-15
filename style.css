@@ -223,8 +223,9 @@ main {
   }
   
   .rodape_inf p {
-    font-size: 0.21em; /* Defina o tamanho de fonte desejado */
-    margin: 0.9em 0;
+    font-size: 0.2em; /* Defina o tamanho de fonte desejado */
+    margin: 2em 0;
+    
     
   }
   
@@ -364,8 +365,8 @@ main {
       z-index:1;
     }
     .rodape_inf p {
-      font-size: 0.08em; /* Defina o tamanho de fonte desejado*/
-      line-height: 0.07em;
+      font-size: 0.9em; /* Defina o tamanho de fonte desejado*/
+      line-height: 1em;
     }
   }
 }
